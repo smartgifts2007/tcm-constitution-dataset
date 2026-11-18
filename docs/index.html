@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Open Dataset &amp; Methodology: Wang Qi / CACM 9-Constitution Global Online Survey (n = 21,242, CSV)</title>
+  <meta name="description" content="Open CC-BY-4.0 aggregate CSV dataset and methodology note from 21,242 online 29-question TCM body constitution assessments across 164 countries (2026)." />
+  <script type="application/ld+json">{
+  "@context": "https://schema.org",
+  "@type": "Dataset",
+  "name": "Global Online Distribution of the Nine TCM Body Constitutions (Wang Qi / CACM Framework): Aggregate Dataset (n = 21,242)",
+  "description": "Anonymized aggregate tables from 21,242 completed 29-question Traditional Chinese Medicine constitution assessments across 164 countries and regions (2026-03-17 to 2026-11-18), stratified by primary pattern, gender, age band, and mixed-constitution near-tie pairs.",
+  "license": "https://creativecommons.org/licenses/by/4.0/",
+  "isAccessibleForFree": true,
+  "datePublished": "2026-11-18",
+  "dateModified": "2026-11-18",
+  "isBasedOn": "https://www.identifytcm.com/constitution-statistics",
+  "creator": {
+    "@type": "Person",
+    "name": "Jimmy Yu",
+    "jobTitle": "Certified Acupuncturist",
+    "url": "https://www.identifytcm.com/about"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "IdentifyTCM",
+    "url": "https://www.identifytcm.com"
+  },
+  "distribution": [
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "./data/01_overall_constitution_distribution.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "./data/02_distribution_by_gender.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "./data/03_distribution_by_age_band.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "text/csv",
+      "contentUrl": "./data/04_top_mixed_constitution_pairs.csv"
+    },
+    {
+      "@type": "DataDownload",
+      "encodingFormat": "application/pdf",
+      "contentUrl": "./Methodology_Note_IdentifyTCM_21242_Dataset_2026.pdf"
+    }
+  ]
+}</script>
+  <style>
+    :root { --ink: #1f2d1f; --muted: #5a6458; --moss: #2d5a2d; --bg: #faf8f2; --card: #ffffff; --line: #e4dcc6; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font-family: Georgia, "Times New Roman", serif; line-height: 1.72; padding: 36px 18px 72px; }
+    main { max-width: 860px; margin: 0 auto; }
+    .eyebrow { font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 12.5px; text-transform: uppercase; letter-spacing: 0.08em; color: var(--moss); font-weight: 700; margin: 0 0 8px; }
+    h1 { font-size: 30px; line-height: 1.25; margin: 0 0 12px; }
+    h2 { font-size: 22px; margin: 40px 0 12px; border-left: 3px solid var(--moss); padding-left: 12px; }
+    p, li { font-size: 16.5px; }
+    a { color: var(--moss); font-weight: 600; text-decoration: underline; }
+    .byline { font-size: 14px; color: var(--muted); border-bottom: 1px solid var(--line); padding-bottom: 16px; margin-bottom: 24px; }
+    .summary-box { background: #eef3ec; border: 1px solid #cfe0c8; border-radius: 12px; padding: 18px 22px; margin: 20px 0 28px; }
+    .dl-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; margin: 16px 0 28px; font-family: -apple-system, BlinkMacSystemFont, sans-serif; }
+    .dl-card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 15px; font-size: 14px; }
+    .table-wrap { overflow-x: auto; background: var(--card); border: 1px solid var(--line); border-radius: 10px; margin: 16px 0 24px; }
+    table { width: 100%; border-collapse: collapse; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; font-size: 14px; line-height: 1.5; text-align: left; }
+    th { background: #f3efe2; border-bottom: 2px solid #dcd1b4; padding: 10px 13px; font-weight: 700; }
+    td { padding: 9px 13px; border-bottom: 1px solid #eee7d2; }
+    tr:last-child td { border-bottom: none; }
+    figure { margin: 22px 0; text-align: center; }
+    figure img { max-width: 100%; height: auto; border-radius: 10px; }
+    figcaption { font-size: 13px; color: var(--muted); margin-top: 6px; font-style: italic; }
+    code { font-size: 13px; background: #f1ede2; padding: 2px 5px; border-radius: 4px; }
+    footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); font-size: 13.5px; color: var(--muted); }
+  </style>
+</head>
+<body>
+<main>
+  <p class="eyebrow">Open Research Dataset · CC BY 4.0 · Snapshot 2026-11-18</p>
+  <h1>Global Online Distribution of the Nine TCM Body Constitutions: Aggregate Dataset From 21,242 Assessments</h1>
+  <p class="byline">
+    Compiled &amp; clinically reviewed by <a href="https://www.identifytcm.com/about">Jimmy Yu, Certified Acupuncturist</a> ·
+    Framework: Professor Wang Qi / China Association of Chinese Medicine (CACM Standard <code>ZYYXH/T157-2009</code>) ·
+    Rolling daily figures: <a href="https://www.identifytcm.com/constitution-statistics">IdentifyTCM Live Constitution Statistics</a>
+  </p>
+
+  <div class="summary-box">
+    <strong>Key Empirical Findings (2026-03-17 to 2026-11-18, n = 21,242 assessments across 164 countries &amp; regions):</strong>
+    <ul style="margin:10px 0 0; padding-left:20px;">
+      <li><strong><a href="https://www.identifytcm.com/constitution/qi-stagnation">Qi Stagnation</a> (<code>qiyu</code>, 26.4%)</strong> is the most common primary constitution overall and ranks #1 in every adult age band, peaking at <strong>36.7%</strong> among ages 30–39.</li>
+      <li><strong><a href="https://www.identifytcm.com/constitution/balanced">Balanced</a> (<code>pinghe</code>) accounts for 6.2%</strong> overall (~1 in 16 assessments), dropping to just <strong>2.4%–3.1%</strong> among adults under 40 in this self-selected online cohort.</li>
+      <li><strong>Mixed patterns are the norm (43.2%):</strong> In 9,171 of 21,234 scored assessments, the top two biased patterns sit within ≤ 5 points (0–100 scale), led by <em>Qi Deficiency + Qi Stagnation</em> (13.2% of near-ties).</li>
+    </ul>
+  </div>
+
+  <h2>1. Download Raw Aggregate CSVs &amp; Methodology Note</h2>
+  <p>All files contain strictly aggregated, zero-PII statistical summaries licensed under <strong>CC BY 4.0</strong> (free to reuse and cite with attribution to <a href="https://www.identifytcm.com/constitution-statistics">identifytcm.com/constitution-statistics</a>):</p>
+  <div class="dl-grid">
+    <div class="dl-card">📄 <a href="./Methodology_Note_IdentifyTCM_21242_Dataset_2026.pdf">Methodology &amp; Cohort Note (PDF)</a><br/><span style="color:#666;font-size:12.5px">Instrument, scoring rules &amp; selection bias notes</span></div>
+    <div class="dl-card">📊 <a href="./data/01_overall_constitution_distribution.csv">01_overall_constitution_distribution.csv</a><br/><span style="color:#666;font-size:12.5px">All 9 CACM types: counts, shares, mean &amp; median</span></div>
+    <div class="dl-card">📊 <a href="./data/02_distribution_by_gender.csv">02_distribution_by_gender.csv</a><br/><span style="color:#666;font-size:12.5px">Female (n=15,593) vs. Male (n=5,508)</span></div>
+    <div class="dl-card">📊 <a href="./data/03_distribution_by_age_band.csv">03_distribution_by_age_band.csv</a><br/><span style="color:#666;font-size:12.5px">5 adult age bands (18–29 through 60+)</span></div>
+    <div class="dl-card">📊 <a href="./data/04_top_mixed_constitution_pairs.csv">04_top_mixed_constitution_pairs.csv</a><br/><span style="color:#666;font-size:12.5px">Top 15 near-tie (≤5 pt) dual-constitution pairs</span></div>
+    <div class="dl-card">📊 <a href="./data/05_top_countries_summary.csv">05_top_countries_summary.csv</a><br/><span style="color:#666;font-size:12.5px">Countries with n ≥ 50 assessments</span></div>
+  </div>
+
+  <h2>2. Primary Distribution Across All Nine TCM Constitutions</h2>
+  <p>Respondents completed the free <a href="https://www.identifytcm.com/quiz">29-question TCM constitution assessment</a>, which scores <a href="https://www.identifytcm.com/constitution">the nine TCM body constitutions</a> on a 0–100 scale:</p>
+  <figure>
+    <img src="./assets/chart_01_overall.svg" alt="Primary TCM Body Constitution Distribution across 21,242 assessments" width="820" height="440" />
+    <figcaption>Figure 1. Share of completed assessments by primary constitution (2026-03-17–2026-11-18, n = 21,242).</figcaption>
+  </figure>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Rank</th><th>Constitution (CACM)</th><th>Key</th><th style="text-align:right">Count</th><th style="text-align:right">Share</th><th style="text-align:right">Mean (0–100)</th><th style="text-align:right">Median</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+      <td>#1</td>
+      <td><strong><a href="https://www.identifytcm.com/constitution/qi-stagnation">Qi Stagnation</a></strong> (氣鬱質)</td>
+      <td><code>qiyu</code></td>
+      <td style="text-align:right">5,615</td>
+      <td style="text-align:right"><strong>26.4%</strong></td>
+      <td style="text-align:right">48.2</td>
+      <td style="text-align:right">48.0</td>
+    </tr>
+<tr>
+      <td>#2</td>
+      <td><strong><a href="https://www.identifytcm.com/constitution/qi-deficiency">Qi Deficiency</a></strong> (氣虛質)</td>
+      <td><code>qixu</code></td>
+      <td style="text-align:right">3,584</td>
+      <td style="text-align:right"><strong>16.9%</strong></td>
+      <td style="text-align:right">43.7</td>
+      <td style="text-align:right">44.0</td>
+    </tr>
+<tr>
+      <td>#3</td>
+      <td><strong><a href="https://www.identifytcm.com/constitution/special-constitution">Special / Inherited</a></strong> (特稟質)</td>
+      <td><code>tebing</code></td>
+      <td style="text-align:right">3,445</td>
+      <td style="text-align:right"><strong>16.2%</strong></td>
+      <td style="text-align:right">34.8</td>
+      <td style="text-align:right">31.0</td>
+    </tr>
+<tr>
+      <td>#4</td>
+      <td><strong><a href="https://www.identifytcm.com/constitution/phlegm-dampness">Phlegm-Dampness</a></strong> (痰濕質)</td>
+      <td><code>tanshi</code></td>
+      <td style="text-align:right">2,373</td>
+      <td style="text-align:right"><strong>11.2%</strong></td>
+      <td style="text-align:right">39.0</td>
+      <td style="text-align:right">40.0</td>
+    </tr>
+<tr>
+      <td>#5</td>
+      <td><strong><a href="https://www.identifytcm.com/constitution/yang-deficiency">Yang Deficiency</a></strong> (陽虛質)</td>
+      <td><code>yanxu</code></td>
+      <td style="text-align:right">1,995</td>
+      <td style="text-align:right"><strong>9.4%</strong></td>
+      <td style="text-align:right">39.9</td>
+      <td style="text-align:right">39.0</td>
+    </tr>
+<tr>
+      <td>#6</td>
+      <td><strong><a href="https://www.identifytcm.com/constitution/yin-deficiency">Yin Deficiency</a></strong> (陰虛質)</td>
+      <td><code>yinxu</code></td>
+      <td style="text-align:right">1,651</td>
+      <td style="text-align:right"><strong>7.8%</strong></td>
+      <td style="text-align:right">36.3</td>
+      <td style="text-align:right">35.0</td>
+    </tr>
+<tr>
+      <td>#7</td>
+      <td><strong><a href="https://www.identifytcm.com/constitution/balanced">Balanced</a></strong> (平和質)</td>
+      <td><code>pinghe</code></td>
+      <td style="text-align:right">1,311</td>
+      <td style="text-align:right"><strong>6.2%</strong></td>
+      <td style="text-align:right">36.8</td>
+      <td style="text-align:right">36.0</td>
+    </tr>
+<tr>
+      <td>#8</td>
+      <td><strong><a href="https://www.identifytcm.com/constitution/damp-heat">Damp-Heat</a></strong> (濕熱質)</td>
+      <td><code>shire</code></td>
+      <td style="text-align:right">822</td>
+      <td style="text-align:right"><strong>3.9%</strong></td>
+      <td style="text-align:right">33.5</td>
+      <td style="text-align:right">31.0</td>
+    </tr>
+<tr>
+      <td>#9</td>
+      <td><strong><a href="https://www.identifytcm.com/constitution/blood-stasis">Blood Stasis</a></strong> (血瘀質)</td>
+      <td><code>xueyu</code></td>
+      <td style="text-align:right">446</td>
+      <td style="text-align:right"><strong>2.1%</strong></td>
+      <td style="text-align:right">28.2</td>
+      <td style="text-align:right">27.0</td>
+    </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>3. Demographic Stratification: Age Bands &amp; Gender</h2>
+  <p>While <a href="https://www.identifytcm.com/constitution/qi-stagnation">Qi Stagnation</a> leads both women (26.1%) and men (27.5%), secondary patterns diverge across life stages: <a href="https://www.identifytcm.com/constitution/phlegm-dampness">Phlegm-Dampness</a> rises in the 40–49 cohort (14.6%), while <a href="https://www.identifytcm.com/constitution/yin-deficiency">Yin Deficiency</a> more than doubles from ages 40–49 (4.0%) to 60+ (9.6%) — a shift closely aligned with classical TCM views on <a href="https://www.identifytcm.com/learn/tcm-for-menopause">menopause and Yin depletion</a> as well as Liver-Blood signs such as <a href="https://www.identifytcm.com/learn/what-do-my-nails-say-about-my-health">vertical fingernail ridges</a>.</p>
+  <figure>
+    <img src="./assets/chart_02_age_shift.svg" alt="TCM Body Constitution Shifts by Age Band" width="820" height="410" />
+    <figcaption>Figure 2. Age-stratified prevalence of major TCM constitutions from 18–29 to 60+.</figcaption>
+  </figure>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Age Band</th><th style="text-align:right">Sample (n)</th><th>#1 Primary Pattern</th><th>#2 Primary Pattern</th><th style="text-align:right">Balanced %</th><th style="text-align:right">Yin Def. %</th><th style="text-align:right">Near-Tie (≤5pt)</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+      <td><strong>18-29</strong></td>
+      <td style="text-align:right">881</td>
+      <td>Qi Stagnation (35%)</td>
+      <td>Qi Deficiency (16%)</td>
+      <td style="text-align:right">2.4%</td>
+      <td style="text-align:right">7.7%</td>
+      <td style="text-align:right">41.6%</td>
+    </tr>
+<tr>
+      <td><strong>30-39</strong></td>
+      <td style="text-align:right">2,084</td>
+      <td>Qi Stagnation (37%)</td>
+      <td>Qi Deficiency (16%)</td>
+      <td style="text-align:right">3.1%</td>
+      <td style="text-align:right">6.2%</td>
+      <td style="text-align:right">42.6%</td>
+    </tr>
+<tr>
+      <td><strong>40-49</strong></td>
+      <td style="text-align:right">2,664</td>
+      <td>Qi Stagnation (30%)</td>
+      <td>Phlegm-Dampness (15%)</td>
+      <td style="text-align:right">3.3%</td>
+      <td style="text-align:right">4.0%</td>
+      <td style="text-align:right">43.8%</td>
+    </tr>
+<tr>
+      <td><strong>50-59</strong></td>
+      <td style="text-align:right">5,846</td>
+      <td>Qi Stagnation (26%)</td>
+      <td>Qi Deficiency (17%)</td>
+      <td style="text-align:right">7.4%</td>
+      <td style="text-align:right">7.1%</td>
+      <td style="text-align:right">44.1%</td>
+    </tr>
+<tr>
+      <td><strong>60+</strong></td>
+      <td style="text-align:right">9,584</td>
+      <td>Qi Stagnation (23%)</td>
+      <td>Special / Inherited (19%)</td>
+      <td style="text-align:right">7.3%</td>
+      <td style="text-align:right">9.6%</td>
+      <td style="text-align:right">42.7%</td>
+    </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>4. Mixed Constitutions (43.2% Near-Tie Rate)</h2>
+  <p>In clinical practice, pure single-pattern presentations are uncommon. Across 21,234 scored assessments, <strong>43.2% (9,171)</strong> had their top two biased constitutions separated by 5 points or fewer. Understanding <a href="https://www.identifytcm.com/learn/mixed-tcm-body-types-why-you-fit-more-than-one">mixed TCM body types and sequencing rules</a> helps explain why generic single-symptom tips — such as taking heavy tonics when <a href="https://www.identifytcm.com/learn/how-to-get-rid-of-dampness">internal dampness</a> is present, or misreading trapped stress chill vs. <a href="https://www.identifytcm.com/learn/why-am-i-always-cold">why you feel cold all the time</a> — frequently backfire.</p>
+  <figure>
+    <img src="./assets/chart_03_mixed_pairs.svg" alt="Top 8 Mixed TCM Constitution Pairs" width="820" height="390" />
+    <figcaption>Figure 3. Most frequent unordered near-tie constitution pairs (top 2 biased scores within ≤ 5 points).</figcaption>
+  </figure>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Rank</th><th>Unordered Constitution Pair (≤5 pt Tie)</th><th style="text-align:right">Count</th><th style="text-align:right">Share of Near-Ties</th><th style="text-align:right">Share of All Scored</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+      <td>#1</td>
+      <td><strong>Qi Deficiency + Qi Stagnation</strong></td>
+      <td style="text-align:right">1,211</td>
+      <td style="text-align:right"><strong>13.2%</strong></td>
+      <td style="text-align:right">5.7%</td>
+    </tr>
+<tr>
+      <td>#2</td>
+      <td><strong>Qi Stagnation + Yin Deficiency</strong></td>
+      <td style="text-align:right">796</td>
+      <td style="text-align:right"><strong>8.7%</strong></td>
+      <td style="text-align:right">3.7%</td>
+    </tr>
+<tr>
+      <td>#3</td>
+      <td><strong>Qi Stagnation + Phlegm-Dampness</strong></td>
+      <td style="text-align:right">758</td>
+      <td style="text-align:right"><strong>8.3%</strong></td>
+      <td style="text-align:right">3.6%</td>
+    </tr>
+<tr>
+      <td>#4</td>
+      <td><strong>Damp-Heat + Phlegm-Dampness</strong></td>
+      <td style="text-align:right">717</td>
+      <td style="text-align:right"><strong>7.8%</strong></td>
+      <td style="text-align:right">3.4%</td>
+    </tr>
+<tr>
+      <td>#5</td>
+      <td><strong>Qi Stagnation + Yang Deficiency</strong></td>
+      <td style="text-align:right">667</td>
+      <td style="text-align:right"><strong>7.3%</strong></td>
+      <td style="text-align:right">3.1%</td>
+    </tr>
+<tr>
+      <td>#6</td>
+      <td><strong>Qi Deficiency + Yang Deficiency</strong></td>
+      <td style="text-align:right">632</td>
+      <td style="text-align:right"><strong>6.9%</strong></td>
+      <td style="text-align:right">3.0%</td>
+    </tr>
+<tr>
+      <td>#7</td>
+      <td><strong>Qi Stagnation + Special / Inherited</strong></td>
+      <td style="text-align:right">541</td>
+      <td style="text-align:right"><strong>5.9%</strong></td>
+      <td style="text-align:right">2.5%</td>
+    </tr>
+<tr>
+      <td>#8</td>
+      <td><strong>Qi Deficiency + Phlegm-Dampness</strong></td>
+      <td style="text-align:right">532</td>
+      <td style="text-align:right"><strong>5.8%</strong></td>
+      <td style="text-align:right">2.5%</td>
+    </tr>
+<tr>
+      <td>#9</td>
+      <td><strong>Qi Deficiency + Special / Inherited</strong></td>
+      <td style="text-align:right">496</td>
+      <td style="text-align:right"><strong>5.4%</strong></td>
+      <td style="text-align:right">2.3%</td>
+    </tr>
+<tr>
+      <td>#10</td>
+      <td><strong>Special / Inherited + Yang Deficiency</strong></td>
+      <td style="text-align:right">330</td>
+      <td style="text-align:right"><strong>3.6%</strong></td>
+      <td style="text-align:right">1.6%</td>
+    </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2>5. Geographic Reach &amp; Methodological Limitations</h2>
+  <p>Geolocated completions span <strong>164 countries and regions</strong>, led by English-speaking markets where TCM self-care education is growing rapidly. Notably, regional climate and allergen profiles appear in top-rank shifts: humid subtropics/tropics (Taiwan, Singapore) rank <a href="https://www.identifytcm.com/constitution/phlegm-dampness">Phlegm-Dampness</a> #1, while Australia ranks <a href="https://www.identifytcm.com/constitution/special-constitution">Special / Sensitive Constitution</a> #1.</p>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Rank</th><th>Country / Region (n ≥ 50)</th><th style="text-align:right">Assessments</th><th style="text-align:right">Share of Geolocated</th><th>#1 Primary Pattern</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+      <td>#1</td>
+      <td>United States</td>
+      <td style="text-align:right">8,075</td>
+      <td style="text-align:right">45.3%</td>
+      <td>Qi Stagnation</td>
+    </tr>
+<tr>
+      <td>#2</td>
+      <td>United Kingdom</td>
+      <td style="text-align:right">1,242</td>
+      <td style="text-align:right">7.0%</td>
+      <td>Qi Stagnation</td>
+    </tr>
+<tr>
+      <td>#3</td>
+      <td>Canada</td>
+      <td style="text-align:right">1,197</td>
+      <td style="text-align:right">6.7%</td>
+      <td>Qi Stagnation</td>
+    </tr>
+<tr>
+      <td>#4</td>
+      <td>India</td>
+      <td style="text-align:right">843</td>
+      <td style="text-align:right">4.7%</td>
+      <td>Qi Stagnation</td>
+    </tr>
+<tr>
+      <td>#5</td>
+      <td>Australia</td>
+      <td style="text-align:right">769</td>
+      <td style="text-align:right">4.3%</td>
+      <td>Special / Inherited</td>
+    </tr>
+<tr>
+      <td>#6</td>
+      <td>Germany</td>
+      <td style="text-align:right">457</td>
+      <td style="text-align:right">2.6%</td>
+      <td>Qi Stagnation</td>
+    </tr>
+<tr>
+      <td>#7</td>
+      <td>Taiwan</td>
+      <td style="text-align:right">350</td>
+      <td style="text-align:right">2.0%</td>
+      <td>Phlegm-Dampness</td>
+    </tr>
+<tr>
+      <td>#8</td>
+      <td>The Netherlands</td>
+      <td style="text-align:right">331</td>
+      <td style="text-align:right">1.9%</td>
+      <td>Qi Stagnation</td>
+    </tr>
+<tr>
+      <td>#9</td>
+      <td>Singapore</td>
+      <td style="text-align:right">287</td>
+      <td style="text-align:right">1.6%</td>
+      <td>Phlegm-Dampness</td>
+    </tr>
+<tr>
+      <td>#10</td>
+      <td>France</td>
+      <td style="text-align:right">255</td>
+      <td style="text-align:right">1.4%</td>
+      <td>Qi Stagnation</td>
+    </tr>
+      </tbody>
+    </table>
+  </div>
+  <ul>
+    <li><strong>Self-selection bias (critical distinction vs. general population surveys):</strong> Community epidemiological studies in China using random or stratified sampling typically report 22%–35% <em>Balanced (Pinghe)</em> prevalence. By contrast, visitors arriving at an online wellness assessment (often via educational videos about fatigue, sleep, or <a href="https://www.identifytcm.com/constitution/yang-deficiency">cold hands and feet</a>) are actively investigating existing sub-health signals — explaining the lower 6.2% Balanced rate and higher Qi Stagnation / Qi Deficiency shares.</li>
+    <li><strong>Unit of analysis:</strong> Primary tables report all 21,242 completed assessments (corresponding to 14,104 unique email respondents, as some users re-assess across seasons).</li>
+    <li><strong>Educational scope:</strong> TCM body constitution describes general wellness tendencies, not medical diagnoses. Nothing in this dataset or on IdentifyTCM diagnoses, treats, cures, or prevents any disease.</li>
+  </ul>
+
+  <h2>6. How to Cite This Dataset</h2>
+  <div class="summary-box" style="background:#f4f1e8;border-color:#dfd6be;font-size:15px;">
+    Yu, J. (2026). <em>Global Online Distribution of the Nine TCM Body Constitutions (Wang Qi / CACM Framework): Aggregate Dataset From 21,242 Assessments</em> [Data set]. IdentifyTCM. Live source of record: <a href="https://www.identifytcm.com/constitution-statistics">https://www.identifytcm.com/constitution-statistics</a>
+  </div>
+
+  <footer>
+    Published under <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International (CC BY 4.0)</a> ·
+    Source platform: <a href="https://www.identifytcm.com">IdentifyTCM.com</a>
+  </footer>
+</main>
+</body>
+</html>

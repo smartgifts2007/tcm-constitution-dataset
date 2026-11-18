@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it using the metadata below."
+title: "Global Online Distribution of the Nine TCM Body Constitutions (Wang Qi / CACM Framework): Aggregate Dataset From 21,242 Assessments"
+type: dataset
+authors:
+  - family-names: "Yu"
+    given-names: "Jimmy"
+    affiliation: "IdentifyTCM"
+date-released: "2026-11-18"
+license: "CC-BY-4.0"
+url: "https://www.identifytcm.com/constitution-statistics"

@@ -1,0 +1,507 @@
+{
+  "snapshot_date": "2026-11-18",
+  "date_range": {
+    "start": "2026-03-17",
+    "end": "2026-11-18"
+  },
+  "total_completed_assessments": 21242,
+  "unique_email_respondents": 14104,
+  "countries_and_regions_count": 164,
+  "scored_assessments": 21234,
+  "near_tie_5pt_count": 9171,
+  "near_tie_5pt_pct_rounded": 43,
+  "near_tie_5pt_pct_1dec": 43.2,
+  "overall_distribution": [
+    {
+      "key": "qiyu",
+      "english_name": "Qi Stagnation",
+      "chinese_name": "氣鬱質",
+      "pinyin": "Qiyu",
+      "count": 5615,
+      "percentage": 26.4,
+      "exact_percentage": 26.43,
+      "mean_score": 48.2,
+      "median_score": 48.0,
+      "rank": 1
+    },
+    {
+      "key": "qixu",
+      "english_name": "Qi Deficiency",
+      "chinese_name": "氣虛質",
+      "pinyin": "Qixu",
+      "count": 3584,
+      "percentage": 16.9,
+      "exact_percentage": 16.87,
+      "mean_score": 43.7,
+      "median_score": 44.0,
+      "rank": 2
+    },
+    {
+      "key": "tebing",
+      "english_name": "Special / Inherited",
+      "chinese_name": "特稟質",
+      "pinyin": "Tebing",
+      "count": 3445,
+      "percentage": 16.2,
+      "exact_percentage": 16.22,
+      "mean_score": 34.8,
+      "median_score": 31.0,
+      "rank": 3
+    },
+    {
+      "key": "tanshi",
+      "english_name": "Phlegm-Dampness",
+      "chinese_name": "痰濕質",
+      "pinyin": "Tanshi",
+      "count": 2373,
+      "percentage": 11.2,
+      "exact_percentage": 11.17,
+      "mean_score": 39.0,
+      "median_score": 40.0,
+      "rank": 4
+    },
+    {
+      "key": "yanxu",
+      "english_name": "Yang Deficiency",
+      "chinese_name": "陽虛質",
+      "pinyin": "Yangxu",
+      "count": 1995,
+      "percentage": 9.4,
+      "exact_percentage": 9.39,
+      "mean_score": 39.9,
+      "median_score": 39.0,
+      "rank": 5
+    },
+    {
+      "key": "yinxu",
+      "english_name": "Yin Deficiency",
+      "chinese_name": "陰虛質",
+      "pinyin": "Yinxu",
+      "count": 1651,
+      "percentage": 7.8,
+      "exact_percentage": 7.77,
+      "mean_score": 36.3,
+      "median_score": 35.0,
+      "rank": 6
+    },
+    {
+      "key": "pinghe",
+      "english_name": "Balanced",
+      "chinese_name": "平和質",
+      "pinyin": "Pinghe",
+      "count": 1311,
+      "percentage": 6.2,
+      "exact_percentage": 6.17,
+      "mean_score": 36.8,
+      "median_score": 36.0,
+      "rank": 7
+    },
+    {
+      "key": "shire",
+      "english_name": "Damp-Heat",
+      "chinese_name": "濕熱質",
+      "pinyin": "Shire",
+      "count": 822,
+      "percentage": 3.9,
+      "exact_percentage": 3.87,
+      "mean_score": 33.5,
+      "median_score": 31.0,
+      "rank": 8
+    },
+    {
+      "key": "xueyu",
+      "english_name": "Blood Stasis",
+      "chinese_name": "血瘀質",
+      "pinyin": "Xueyu",
+      "count": 446,
+      "percentage": 2.1,
+      "exact_percentage": 2.1,
+      "mean_score": 28.2,
+      "median_score": 27.0,
+      "rank": 9
+    }
+  ],
+  "gender_summary": {
+    "female": {
+      "n": 15593,
+      "pcts": {
+        "pinghe": 5.2,
+        "qixu": 17.4,
+        "yanxu": 9.0,
+        "yinxu": 7.2,
+        "tanshi": 11.1,
+        "shire": 3.0,
+        "xueyu": 2.7,
+        "qiyu": 26.1,
+        "tebing": 18.3
+      },
+      "counts": {
+        "yinxu": 1125,
+        "qiyu": 4064,
+        "tanshi": 1736,
+        "qixu": 2719,
+        "yanxu": 1398,
+        "xueyu": 419,
+        "tebing": 2857,
+        "shire": 470,
+        "pinghe": 805
+      },
+      "top3": [
+        "Qi Stagnation (26%)",
+        "Special / Inherited (18%)",
+        "Qi Deficiency (17%)"
+      ]
+    },
+    "male": {
+      "n": 5508,
+      "pcts": {
+        "pinghe": 9.2,
+        "qixu": 15.0,
+        "yanxu": 10.7,
+        "yinxu": 9.5,
+        "tanshi": 11.2,
+        "shire": 6.3,
+        "xueyu": 0.5,
+        "qiyu": 27.5,
+        "tebing": 10.1
+      },
+      "counts": {
+        "qiyu": 1514,
+        "tanshi": 619,
+        "shire": 348,
+        "yinxu": 522,
+        "yanxu": 589,
+        "tebing": 558,
+        "qixu": 828,
+        "pinghe": 505,
+        "xueyu": 25
+      },
+      "top3": [
+        "Qi Stagnation (27%)",
+        "Qi Deficiency (15%)",
+        "Phlegm-Dampness (11%)"
+      ]
+    }
+  },
+  "age_summary": [
+    {
+      "band": "18-29",
+      "n": 881,
+      "pcts": {
+        "pinghe": 2.4,
+        "qixu": 16.1,
+        "yanxu": 9.9,
+        "yinxu": 7.7,
+        "tanshi": 9.1,
+        "shire": 6.7,
+        "xueyu": 2.2,
+        "qiyu": 34.7,
+        "tebing": 11.2
+      },
+      "top1": "Qi Stagnation (35%)",
+      "top2": "Qi Deficiency (16%)",
+      "near_tie_pct": 41.6
+    },
+    {
+      "band": "30-39",
+      "n": 2084,
+      "pcts": {
+        "pinghe": 3.1,
+        "qixu": 16.0,
+        "yanxu": 7.7,
+        "yinxu": 6.2,
+        "tanshi": 9.5,
+        "shire": 6.2,
+        "xueyu": 2.1,
+        "qiyu": 36.7,
+        "tebing": 12.5
+      },
+      "top1": "Qi Stagnation (37%)",
+      "top2": "Qi Deficiency (16%)",
+      "near_tie_pct": 42.6
+    },
+    {
+      "band": "40-49",
+      "n": 2664,
+      "pcts": {
+        "pinghe": 3.3,
+        "qixu": 14.5,
+        "yanxu": 9.0,
+        "yinxu": 4.0,
+        "tanshi": 14.6,
+        "shire": 6.6,
+        "xueyu": 3.7,
+        "qiyu": 30.2,
+        "tebing": 14.1
+      },
+      "top1": "Qi Stagnation (30%)",
+      "top2": "Phlegm-Dampness (15%)",
+      "near_tie_pct": 43.8
+    },
+    {
+      "band": "50-59",
+      "n": 5846,
+      "pcts": {
+        "pinghe": 7.4,
+        "qixu": 16.6,
+        "yanxu": 9.2,
+        "yinxu": 7.1,
+        "tanshi": 13.1,
+        "shire": 3.1,
+        "xueyu": 2.8,
+        "qiyu": 25.7,
+        "tebing": 15.0
+      },
+      "top1": "Qi Stagnation (26%)",
+      "top2": "Qi Deficiency (17%)",
+      "near_tie_pct": 44.1
+    },
+    {
+      "band": "60+",
+      "n": 9584,
+      "pcts": {
+        "pinghe": 7.3,
+        "qixu": 17.8,
+        "yanxu": 9.9,
+        "yinxu": 9.6,
+        "tanshi": 9.5,
+        "shire": 2.9,
+        "xueyu": 1.2,
+        "qiyu": 23.0,
+        "tebing": 18.7
+      },
+      "top1": "Qi Stagnation (23%)",
+      "top2": "Special / Inherited (19%)",
+      "near_tie_pct": 42.7
+    }
+  ],
+  "top_mixed_pairs": [
+    {
+      "rank": 1,
+      "pair_keys": "qixu+qiyu",
+      "pair_names": "Qi Deficiency + Qi Stagnation",
+      "count": 1211,
+      "share_of_near_ties_pct": 13.2,
+      "share_of_all_scored_pct": 5.7
+    },
+    {
+      "rank": 2,
+      "pair_keys": "qiyu+yinxu",
+      "pair_names": "Qi Stagnation + Yin Deficiency",
+      "count": 796,
+      "share_of_near_ties_pct": 8.7,
+      "share_of_all_scored_pct": 3.7
+    },
+    {
+      "rank": 3,
+      "pair_keys": "qiyu+tanshi",
+      "pair_names": "Qi Stagnation + Phlegm-Dampness",
+      "count": 758,
+      "share_of_near_ties_pct": 8.3,
+      "share_of_all_scored_pct": 3.6
+    },
+    {
+      "rank": 4,
+      "pair_keys": "shire+tanshi",
+      "pair_names": "Damp-Heat + Phlegm-Dampness",
+      "count": 717,
+      "share_of_near_ties_pct": 7.8,
+      "share_of_all_scored_pct": 3.4
+    },
+    {
+      "rank": 5,
+      "pair_keys": "qiyu+yanxu",
+      "pair_names": "Qi Stagnation + Yang Deficiency",
+      "count": 667,
+      "share_of_near_ties_pct": 7.3,
+      "share_of_all_scored_pct": 3.1
+    },
+    {
+      "rank": 6,
+      "pair_keys": "qixu+yanxu",
+      "pair_names": "Qi Deficiency + Yang Deficiency",
+      "count": 632,
+      "share_of_near_ties_pct": 6.9,
+      "share_of_all_scored_pct": 3.0
+    },
+    {
+      "rank": 7,
+      "pair_keys": "qiyu+tebing",
+      "pair_names": "Qi Stagnation + Special / Inherited",
+      "count": 541,
+      "share_of_near_ties_pct": 5.9,
+      "share_of_all_scored_pct": 2.5
+    },
+    {
+      "rank": 8,
+      "pair_keys": "qixu+tanshi",
+      "pair_names": "Qi Deficiency + Phlegm-Dampness",
+      "count": 532,
+      "share_of_near_ties_pct": 5.8,
+      "share_of_all_scored_pct": 2.5
+    },
+    {
+      "rank": 9,
+      "pair_keys": "qixu+tebing",
+      "pair_names": "Qi Deficiency + Special / Inherited",
+      "count": 496,
+      "share_of_near_ties_pct": 5.4,
+      "share_of_all_scored_pct": 2.3
+    },
+    {
+      "rank": 10,
+      "pair_keys": "tebing+yanxu",
+      "pair_names": "Special / Inherited + Yang Deficiency",
+      "count": 330,
+      "share_of_near_ties_pct": 3.6,
+      "share_of_all_scored_pct": 1.6
+    },
+    {
+      "rank": 11,
+      "pair_keys": "yanxu+yinxu",
+      "pair_names": "Yang Deficiency + Yin Deficiency",
+      "count": 317,
+      "share_of_near_ties_pct": 3.5,
+      "share_of_all_scored_pct": 1.5
+    },
+    {
+      "rank": 12,
+      "pair_keys": "qiyu+shire",
+      "pair_names": "Qi Stagnation + Damp-Heat",
+      "count": 262,
+      "share_of_near_ties_pct": 2.9,
+      "share_of_all_scored_pct": 1.2
+    },
+    {
+      "rank": 13,
+      "pair_keys": "qixu+yinxu",
+      "pair_names": "Qi Deficiency + Yin Deficiency",
+      "count": 254,
+      "share_of_near_ties_pct": 2.8,
+      "share_of_all_scored_pct": 1.2
+    },
+    {
+      "rank": 14,
+      "pair_keys": "tanshi+yanxu",
+      "pair_names": "Phlegm-Dampness + Yang Deficiency",
+      "count": 228,
+      "share_of_near_ties_pct": 2.5,
+      "share_of_all_scored_pct": 1.1
+    },
+    {
+      "rank": 15,
+      "pair_keys": "qiyu+xueyu",
+      "pair_names": "Qi Stagnation + Blood Stasis",
+      "count": 201,
+      "share_of_near_ties_pct": 2.2,
+      "share_of_all_scored_pct": 0.9
+    }
+  ],
+  "top_countries": [
+    {
+      "rank": 1,
+      "country": "United States",
+      "count": 8075,
+      "share_pct": 45.3,
+      "top_constitution": "Qi Stagnation"
+    },
+    {
+      "rank": 2,
+      "country": "United Kingdom",
+      "count": 1242,
+      "share_pct": 7.0,
+      "top_constitution": "Qi Stagnation"
+    },
+    {
+      "rank": 3,
+      "country": "Canada",
+      "count": 1197,
+      "share_pct": 6.7,
+      "top_constitution": "Qi Stagnation"
+    },
+    {
+      "rank": 4,
+      "country": "India",
+      "count": 843,
+      "share_pct": 4.7,
+      "top_constitution": "Qi Stagnation"
+    },
+    {
+      "rank": 5,
+      "country": "Australia",
+      "count": 769,
+      "share_pct": 4.3,
+      "top_constitution": "Special / Inherited"
+    },
+    {
+      "rank": 6,
+      "country": "Germany",
+      "count": 457,
+      "share_pct": 2.6,
+      "top_constitution": "Qi Stagnation"
+    },
+    {
+      "rank": 7,
+      "country": "Taiwan",
+      "count": 350,
+      "share_pct": 2.0,
+      "top_constitution": "Phlegm-Dampness"
+    },
+    {
+      "rank": 8,
+      "country": "The Netherlands",
+      "count": 331,
+      "share_pct": 1.9,
+      "top_constitution": "Qi Stagnation"
+    },
+    {
+      "rank": 9,
+      "country": "Singapore",
+      "count": 287,
+      "share_pct": 1.6,
+      "top_constitution": "Phlegm-Dampness"
+    },
+    {
+      "rank": 10,
+      "country": "France",
+      "count": 255,
+      "share_pct": 1.4,
+      "top_constitution": "Qi Stagnation"
+    },
+    {
+      "rank": 11,
+      "country": "Malaysia",
+      "count": 220,
+      "share_pct": 1.2,
+      "top_constitution": "Qi Stagnation"
+    },
+    {
+      "rank": 12,
+      "country": "South Africa",
+      "count": 192,
+      "share_pct": 1.1,
+      "top_constitution": "Qi Stagnation"
+    },
+    {
+      "rank": 13,
+      "country": "Spain",
+      "count": 176,
+      "share_pct": 1.0,
+      "top_constitution": "Qi Stagnation"
+    },
+    {
+      "rank": 14,
+      "country": "Italy",
+      "count": 172,
+      "share_pct": 1.0,
+      "top_constitution": "Qi Stagnation"
+    },
+    {
+      "rank": 15,
+      "country": "New Zealand",
+      "count": 170,
+      "share_pct": 1.0,
+      "top_constitution": "Qi Stagnation"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "Global Online Distribution of the Nine TCM Body Constitutions (Wang Qi / CACM Framework): Aggregate Dataset From 21,242 Assessments (2026)",
+  "upload_type": "dataset",
+  "publication_date": "2026-11-18",
+  "creators": [
+    {
+      "name": "Yu, Jimmy",
+      "affiliation": "IdentifyTCM"
+    }
+  ],
+  "description": "<p>Anonymized aggregate statistical dataset from <strong>21,242 completed 29-question Traditional Chinese Medicine (TCM) body constitution assessments</strong> (14,104 unique respondents across 164 countries and regions, collected 2026-03-17 to 2026-11-18), scored under the official China Association of Chinese Medicine (CACM Standard ZYYXH/T157-2009, Professor Wang Qi nine-constitution model).</p><p>Includes 5 aggregate CSV tables (overall distribution, gender cross-tabulation, adult age-band stratification, top 15 dual near-tie mixed constitution pairs, and country summary for n &ge; 50) plus a full Methodology &amp; Cohort Limitations Note (PDF). Zero personally identifiable information (PII) is included.</p><p>Live daily source of record: <a href=\"https://www.identifytcm.com/constitution-statistics\">https://www.identifytcm.com/constitution-statistics</a> | Framework overview: <a href=\"https://www.identifytcm.com/constitution\">https://www.identifytcm.com/constitution</a></p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "Traditional Chinese Medicine",
+    "TCM body constitution",
+    "Wang Qi",
+    "CCMQ",
+    "CACM ZYYXH/T157-2009",
+    "Qi Stagnation",
+    "Qi Deficiency",
+    "preventive wellness survey"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://www.identifytcm.com/constitution-statistics",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset"
+    },
+    {
+      "identifier": "https://www.identifytcm.com/constitution",
+      "relation": "isDocumentedBy",
+      "resource_type": "publication-other"
+    }
+  ]
+}

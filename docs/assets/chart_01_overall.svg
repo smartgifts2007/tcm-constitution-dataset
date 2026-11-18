@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 440" width="820" height="440" style="background:#faf8f2;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Georgia,sans-serif">
+<rect width="820" height="440" rx="12" fill="#faf8f2" stroke="#e4dcc6"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1f2d1f">Primary TCM Body Constitution Distribution (n = 21,242 Assessments)</text>
+<text x="32" y="62" font-size="13" fill="#666a5e">Wang Qi / CACM 9-Constitution Framework · 164 countries &amp; regions (2026-03-17 to 2026-11-18) · Source: identifytcm.com</text>
+<text x="32" y="108" font-size="13.5" font-weight="700" fill="#263326">#1  Qi Stagnation (氣鬱質)</text>
+<rect x="245" y="94" width="460" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="245" y="94" width="460.0" height="18" rx="4" fill="#2d5a2d"/>
+<text x="719" y="108" font-size="13.5" font-weight="700" fill="#1f2d1f">26.4%</text>
+<text x="769" y="108" font-size="12" fill="#777a6e">(5,615)</text>
+<text x="32" y="142" font-size="13.5" font-weight="500" fill="#263326">#2  Qi Deficiency (氣虛質)</text>
+<rect x="245" y="128" width="460" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="245" y="128" width="294.5" height="18" rx="4" fill="#486b48"/>
+<text x="719" y="142" font-size="13.5" font-weight="700" fill="#1f2d1f">16.9%</text>
+<text x="769" y="142" font-size="12" fill="#777a6e">(3,584)</text>
+<text x="32" y="176" font-size="13.5" font-weight="500" fill="#263326">#3  Special / Inherited (特稟質)</text>
+<rect x="245" y="162" width="460" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="245" y="162" width="282.3" height="18" rx="4" fill="#486b48"/>
+<text x="719" y="176" font-size="13.5" font-weight="700" fill="#1f2d1f">16.2%</text>
+<text x="769" y="176" font-size="12" fill="#777a6e">(3,445)</text>
+<text x="32" y="210" font-size="13.5" font-weight="500" fill="#263326">#4  Phlegm-Dampness (痰濕質)</text>
+<rect x="245" y="196" width="460" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="245" y="196" width="195.2" height="18" rx="4" fill="#486b48"/>
+<text x="719" y="210" font-size="13.5" font-weight="700" fill="#1f2d1f">11.2%</text>
+<text x="769" y="210" font-size="12" fill="#777a6e">(2,373)</text>
+<text x="32" y="244" font-size="13.5" font-weight="500" fill="#263326">#5  Yang Deficiency (陽虛質)</text>
+<rect x="245" y="230" width="460" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="245" y="230" width="163.8" height="18" rx="4" fill="#486b48"/>
+<text x="719" y="244" font-size="13.5" font-weight="700" fill="#1f2d1f">9.4%</text>
+<text x="769" y="244" font-size="12" fill="#777a6e">(1,995)</text>
+<text x="32" y="278" font-size="13.5" font-weight="500" fill="#263326">#6  Yin Deficiency (陰虛質)</text>
+<rect x="245" y="264" width="460" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="245" y="264" width="135.9" height="18" rx="4" fill="#486b48"/>
+<text x="719" y="278" font-size="13.5" font-weight="700" fill="#1f2d1f">7.8%</text>
+<text x="769" y="278" font-size="12" fill="#777a6e">(1,651)</text>
+<text x="32" y="312" font-size="13.5" font-weight="700" fill="#263326">#7  Balanced (平和質)</text>
+<rect x="245" y="298" width="460" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="245" y="298" width="108.0" height="18" rx="4" fill="#8a6a2a"/>
+<text x="719" y="312" font-size="13.5" font-weight="700" fill="#1f2d1f">6.2%</text>
+<text x="769" y="312" font-size="12" fill="#777a6e">(1,311)</text>
+<text x="32" y="346" font-size="13.5" font-weight="500" fill="#263326">#8  Damp-Heat (濕熱質)</text>
+<rect x="245" y="332" width="460" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="245" y="332" width="68.0" height="18" rx="4" fill="#486b48"/>
+<text x="719" y="346" font-size="13.5" font-weight="700" fill="#1f2d1f">3.9%</text>
+<text x="769" y="346" font-size="12" fill="#777a6e">(822)</text>
+<text x="32" y="380" font-size="13.5" font-weight="500" fill="#263326">#9  Blood Stasis (血瘀質)</text>
+<rect x="245" y="366" width="460" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="245" y="366" width="36.6" height="18" rx="4" fill="#486b48"/>
+<text x="719" y="380" font-size="13.5" font-weight="700" fill="#1f2d1f">2.1%</text>
+<text x="769" y="380" font-size="12" fill="#777a6e">(446)</text>
+<text x="32" y="424" font-size="11.5" fill="#7a7a6a">Note: Self-selected online sample (not a general population census). Balanced (Pinghe) accounts for 6.2% overall.</text>
+</svg>

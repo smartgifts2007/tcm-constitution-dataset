@@ -1,0 +1,16 @@
+rank,pattern_a_key,pattern_a_name,pattern_b_key,pattern_b_name,near_tie_count,share_of_near_ties_pct,share_of_all_scored_pct
+1,qixu,Qi Deficiency,qiyu,Qi Stagnation,1211,13.2,5.7
+2,qiyu,Qi Stagnation,yinxu,Yin Deficiency,796,8.7,3.7
+3,qiyu,Qi Stagnation,tanshi,Phlegm-Dampness,758,8.3,3.6
+4,shire,Damp-Heat,tanshi,Phlegm-Dampness,717,7.8,3.4
+5,qiyu,Qi Stagnation,yanxu,Yang Deficiency,667,7.3,3.1
+6,qixu,Qi Deficiency,yanxu,Yang Deficiency,632,6.9,3.0
+7,qiyu,Qi Stagnation,tebing,Special / Inherited,541,5.9,2.5
+8,qixu,Qi Deficiency,tanshi,Phlegm-Dampness,532,5.8,2.5
+9,qixu,Qi Deficiency,tebing,Special / Inherited,496,5.4,2.3
+10,tebing,Special / Inherited,yanxu,Yang Deficiency,330,3.6,1.6
+11,yanxu,Yang Deficiency,yinxu,Yin Deficiency,317,3.5,1.5
+12,qiyu,Qi Stagnation,shire,Damp-Heat,262,2.9,1.2
+13,qixu,Qi Deficiency,yinxu,Yin Deficiency,254,2.8,1.2
+14,tanshi,Phlegm-Dampness,yanxu,Yang Deficiency,228,2.5,1.1
+15,qiyu,Qi Stagnation,xueyu,Blood Stasis,201,2.2,0.9

@@ -1,0 +1,10 @@
+rank,constitution_key,english_name,chinese_traditional,pinyin,assessment_count,share_pct,mean_score_0_100,median_score_0_100
+1,qiyu,Qi Stagnation,氣鬱質,Qiyu,5615,26.4,48.2,48.0
+2,qixu,Qi Deficiency,氣虛質,Qixu,3584,16.9,43.7,44.0
+3,tebing,Special / Inherited,特稟質,Tebing,3445,16.2,34.8,31.0
+4,tanshi,Phlegm-Dampness,痰濕質,Tanshi,2373,11.2,39.0,40.0
+5,yanxu,Yang Deficiency,陽虛質,Yangxu,1995,9.4,39.9,39.0
+6,yinxu,Yin Deficiency,陰虛質,Yinxu,1651,7.8,36.3,35.0
+7,pinghe,Balanced,平和質,Pinghe,1311,6.2,36.8,36.0
+8,shire,Damp-Heat,濕熱質,Shire,822,3.9,33.5,31.0
+9,xueyu,Blood Stasis,血瘀質,Xueyu,446,2.1,28.2,27.0

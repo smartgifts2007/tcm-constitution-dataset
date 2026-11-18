@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 390" width="820" height="390" style="background:#faf8f2;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Georgia,sans-serif">
+<rect width="820" height="390" rx="12" fill="#faf8f2" stroke="#e4dcc6"/>
+<text x="32" y="40" font-size="19" font-weight="700" fill="#1f2d1f">Top 8 Mixed Constitution Pairs (43.2% of Takers Tie Within ≤ 5 Points)</text>
+<text x="32" y="62" font-size="13" fill="#666a5e">Among 9,171 near-tie assessments (out of 21,234 scored) · Why single-label advice often backfires</text>
+<text x="32" y="108" font-size="13" font-weight="700" fill="#263326">#1  Qi Deficiency + Qi Stagnation</text>
+<rect x="305" y="94" width="370" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="305" y="94" width="370.0" height="18" rx="4" fill="#2d5a2d"/>
+<text x="687" y="108" font-size="13" font-weight="700" fill="#1f2d1f">13.2%</text>
+<text x="733" y="108" font-size="12" fill="#777a6e">(n=1,211)</text>
+<text x="32" y="141" font-size="13" font-weight="700" fill="#263326">#2  Qi Stagnation + Yin Deficiency</text>
+<rect x="305" y="127" width="370" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="305" y="127" width="243.2" height="18" rx="4" fill="#2d5a2d"/>
+<text x="687" y="141" font-size="13" font-weight="700" fill="#1f2d1f">8.7%</text>
+<text x="733" y="141" font-size="12" fill="#777a6e">(n=796)</text>
+<text x="32" y="174" font-size="13" font-weight="700" fill="#263326">#3  Qi Stagnation + Phlegm-Dampness</text>
+<rect x="305" y="160" width="370" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="305" y="160" width="231.6" height="18" rx="4" fill="#2d5a2d"/>
+<text x="687" y="174" font-size="13" font-weight="700" fill="#1f2d1f">8.3%</text>
+<text x="733" y="174" font-size="12" fill="#777a6e">(n=758)</text>
+<text x="32" y="207" font-size="13" font-weight="500" fill="#263326">#4  Damp-Heat + Phlegm-Dampness</text>
+<rect x="305" y="193" width="370" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="305" y="193" width="219.1" height="18" rx="4" fill="#527352"/>
+<text x="687" y="207" font-size="13" font-weight="700" fill="#1f2d1f">7.8%</text>
+<text x="733" y="207" font-size="12" fill="#777a6e">(n=717)</text>
+<text x="32" y="240" font-size="13" font-weight="500" fill="#263326">#5  Qi Stagnation + Yang Deficiency</text>
+<rect x="305" y="226" width="370" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="305" y="226" width="203.8" height="18" rx="4" fill="#527352"/>
+<text x="687" y="240" font-size="13" font-weight="700" fill="#1f2d1f">7.3%</text>
+<text x="733" y="240" font-size="12" fill="#777a6e">(n=667)</text>
+<text x="32" y="273" font-size="13" font-weight="500" fill="#263326">#6  Qi Deficiency + Yang Deficiency</text>
+<rect x="305" y="259" width="370" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="305" y="259" width="193.1" height="18" rx="4" fill="#527352"/>
+<text x="687" y="273" font-size="13" font-weight="700" fill="#1f2d1f">6.9%</text>
+<text x="733" y="273" font-size="12" fill="#777a6e">(n=632)</text>
+<text x="32" y="306" font-size="13" font-weight="500" fill="#263326">#7  Qi Stagnation + Special / Inherited</text>
+<rect x="305" y="292" width="370" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="305" y="292" width="165.3" height="18" rx="4" fill="#527352"/>
+<text x="687" y="306" font-size="13" font-weight="700" fill="#1f2d1f">5.9%</text>
+<text x="733" y="306" font-size="12" fill="#777a6e">(n=541)</text>
+<text x="32" y="339" font-size="13" font-weight="500" fill="#263326">#8  Qi Deficiency + Phlegm-Dampness</text>
+<rect x="305" y="325" width="370" height="18" rx="4" fill="#ebe5d5"/>
+<rect x="305" y="325" width="162.5" height="18" rx="4" fill="#527352"/>
+<text x="687" y="339" font-size="13" font-weight="700" fill="#1f2d1f">5.8%</text>
+<text x="733" y="339" font-size="12" fill="#777a6e">(n=532)</text>
+<text x="32" y="374" font-size="11.5" fill="#7a7a6a">Source: IdentifyTCM Open Aggregate Dataset (2026-11-18) · https://www.identifytcm.com/constitution-statistics</text>
+</svg>
