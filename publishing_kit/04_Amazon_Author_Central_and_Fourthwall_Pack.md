@@ -1,7 +1,7 @@
 # Amazon Author Central & Fourthwall Cross-Entity Pack (E-E-A-T Loop)
 
 ## A. Amazon Author Central (`https://author.amazon.com` — 2 Minutes)
-1. Sign in with your KDP Amazon account and claim **Volume 1 Paperback (`ASIN: B0HQJR9FRX` — *Your Face Is a Map of Your Organs*)**.
+1. Sign in with your KDP Amazon account and claim **Volume 1 Paperback (`ASIN: B0HQJR9FRX` — *Your Face Is a Map of Your Organs*)** (and **Volume 2 Paperback, `ISBN: 9798140736750` — *Your Hands Are a Built-In First-Aid Kit*** once live).
 2. Paste this verified **English Author Biography**:
 
 > **Jimmy Yu** is a Certified Acupuncturist, Traditional Chinese Medicine practitioner, and creator of **IdentifyTCM** (https://www.identifytcm.com). Across his English (@TCMWellnessChannel) and Chinese (@AcupuncturistJimmyOfficial) YouTube channels, he teaches practical meridian self-care, acupressure, and seasonal food therapy on camera to more than 155,000 subscribers worldwide. His illustrated *Jimmy's Wellness Notes* large-print atlas series translates classical TCM pattern recognition — grounded in the official Wang Qi / CACM nine-constitution framework and insights from over 21,242 online constitution assessments — into clear, everyday self-care habits. All works are strictly educational and designed to complement professional medical care.
@@ -11,9 +11,7 @@
 ---
 
 ## B. Fourthwall Storefront Product Footer Snippet (EN & ZH)
-Append to the bottom of product descriptions on:
-- EN Storefront (`https://acupuncturistjimmyofficial-shop.fourthwall.com`)
-- ZH Storefront (`https://jimmy-12-shop.fourthwall.com`)
+Append to the bottom of product descriptions on your Fourthwall storefront (`https://acupuncturistjimmyofficial-shop.fourthwall.com` — note: `jimmy-12-shop.fourthwall.com` also redirects directly here):
 
 **English Snippet:**
 > Companion TCM Body Type Resource: Not sure whether your body runs Qi-Deficient, Yang-Deficient, Yin-Deficient, or Damp? Take Jimmy's free 3-minute, 29-question constitution assessment at https://www.identifytcm.com/quiz or explore the open 9-constitution guide at https://www.identifytcm.com/constitution.

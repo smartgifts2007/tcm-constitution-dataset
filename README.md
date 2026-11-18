@@ -20,3 +20,7 @@ Open **CC BY 4.0** aggregate CSV dataset and methodology report from **21,242 co
 - `data/04_top_mixed_constitution_pairs.csv`
 - `data/05_top_countries_summary.csv`
 - `docs/Methodology_Note_IdentifyTCM_21242_Dataset_2026.pdf`
+
+## Educational Scope & Disclaimer
+
+TCM body constitution describes general wellness tendencies only. Nothing in this dataset or on [IdentifyTCM](https://www.identifytcm.com) diagnoses, treats, cures, or prevents any disease.

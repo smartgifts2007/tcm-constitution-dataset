@@ -14,7 +14,7 @@ According to our dataset of 21,234 scored assessments on IdentifyTCM, you didn't
 
 ### The Top 5 Real-World Combinations (Out of 9,171 Near-Ties)
 
-When we ranked every unordered pair whose top two biased scores sat within 5 points, five combinations accounted for nearly half (45.3%) of all dual profiles:
+When we ranked every unordered pair whose top two biased scores sat within 5 points, five combinations accounted for nearly half (45.2%, 4,149 of 9,171) of all dual profiles:
 
 1. **Qi Deficiency + Qi Stagnation (13.2% of near-ties, n = 1,211):** The classic modern "depleted yet tense" pattern — your battery runs low by mid-afternoon, yet tight ribs, shallow breathing, or racing thoughts keep you from resting deeply.
 2. **Qi Stagnation + Yin Deficiency (8.7%, n = 796):** Long-term tension gradually drying out cooling reserves — light sleep, dry eyes after screen work, and warm palms at night.

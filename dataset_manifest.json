@@ -147,9 +147,9 @@
         "pinghe": 805
       },
       "top3": [
-        "Qi Stagnation (26%)",
-        "Special / Inherited (18%)",
-        "Qi Deficiency (17%)"
+        "Qi Stagnation (26.1%)",
+        "Special / Inherited (18.3%)",
+        "Qi Deficiency (17.4%)"
       ]
     },
     "male": {
@@ -177,9 +177,9 @@
         "xueyu": 25
       },
       "top3": [
-        "Qi Stagnation (27%)",
-        "Qi Deficiency (15%)",
-        "Phlegm-Dampness (11%)"
+        "Qi Stagnation (27.5%)",
+        "Qi Deficiency (15.0%)",
+        "Phlegm-Dampness (11.2%)"
       ]
     }
   },
@@ -198,8 +198,8 @@
         "qiyu": 34.7,
         "tebing": 11.2
       },
-      "top1": "Qi Stagnation (35%)",
-      "top2": "Qi Deficiency (16%)",
+      "top1": "Qi Stagnation (34.7%)",
+      "top2": "Qi Deficiency (16.1%)",
       "near_tie_pct": 41.6
     },
     {
@@ -216,8 +216,8 @@
         "qiyu": 36.7,
         "tebing": 12.5
       },
-      "top1": "Qi Stagnation (37%)",
-      "top2": "Qi Deficiency (16%)",
+      "top1": "Qi Stagnation (36.7%)",
+      "top2": "Qi Deficiency (16.0%)",
       "near_tie_pct": 42.6
     },
     {
@@ -234,8 +234,8 @@
         "qiyu": 30.2,
         "tebing": 14.1
       },
-      "top1": "Qi Stagnation (30%)",
-      "top2": "Phlegm-Dampness (15%)",
+      "top1": "Qi Stagnation (30.2%)",
+      "top2": "Phlegm-Dampness (14.6%)",
       "near_tie_pct": 43.8
     },
     {
@@ -252,8 +252,8 @@
         "qiyu": 25.7,
         "tebing": 15.0
       },
-      "top1": "Qi Stagnation (26%)",
-      "top2": "Qi Deficiency (17%)",
+      "top1": "Qi Stagnation (25.7%)",
+      "top2": "Qi Deficiency (16.6%)",
       "near_tie_pct": 44.1
     },
     {
@@ -270,8 +270,8 @@
         "qiyu": 23.0,
         "tebing": 18.7
       },
-      "top1": "Qi Stagnation (23%)",
-      "top2": "Special / Inherited (19%)",
+      "top1": "Qi Stagnation (23.0%)",
+      "top2": "Special / Inherited (18.7%)",
       "near_tie_pct": 42.7
     }
   ],
@@ -503,5 +503,6 @@
       "share_pct": 1.0,
       "top_constitution": "Qi Stagnation"
     }
-  ]
+  ],
+  "geolocated_assessments": 17807
 }

@@ -15,7 +15,7 @@
 
 Anonymized aggregate statistical dataset from **21,242 completed 29-question Traditional Chinese Medicine (TCM) body constitution assessments** (14,104 unique respondents across 164 countries and regions, collected 2026-03-17 to 2026-11-18), scored under the official China Association of Chinese Medicine (CACM Standard ZYYXH/T157-2009, Professor Wang Qi nine-constitution model).
 
-Key findings: (1) Qi Stagnation (qiyu, 26.4%) is the #1 primary pattern overall and across every adult age band; (2) Balanced (pinghe) accounts for 6.2% overall in this self-selected online sample; (3) 43.2% (9,171/21,234) of scored assessments show a dual near-tie (top two biased constitutions within <= 5 points). Zero personally identifiable information (PII) is included.
+Key findings: (1) Qi Stagnation (qiyu, 26.4%) is the #1 primary pattern overall and across every adult age band; (2) Balanced (pinghe) accounts for 6.2% overall in this self-selected online sample; (3) 43.2% (9,171/21,234) of scored assessments show a dual near-tie (top two biased constitutions within <= 5 points). Zero personally identifiable information (PII) is included. Educational scope: TCM body constitution describes general wellness tendencies only; nothing in this dataset or on IdentifyTCM diagnoses, treats, cures, or prevents any disease.
 
 Live daily statistics & methodology: https://www.identifytcm.com/constitution-statistics
 Nine TCM constitutions reference: https://www.identifytcm.com/constitution

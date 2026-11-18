@@ -32,10 +32,10 @@ Because almost all published CCMQ prevalence papers come from community/universi
 - Blood Stasis (*Xueyu*): **2.1%** (446)
 
 **2. Three interesting patterns in the cross-tabs:**
-- **Selection bias vs. Chinese community studies:** Community surveys in China usually find 25%–32% *Pinghe*, whereas only **6.2%** score Balanced here (and just 2.4%–3.1% under age 40). That makes sense clinically: healthy *Pinghe* individuals rarely go looking for a constitution questionnaire online.
+- **Selection bias vs. Chinese community studies:** Community surveys in China typically report 22%–35% *Pinghe* (32.75% in Wang Qi & Zhu Yanbo's 2009 national cohort, N = 21,948), whereas only **6.2%** score Balanced here (and just 2.4%–3.1% under age 40). That makes sense clinically: healthy *Pinghe* individuals rarely go looking for a constitution questionnaire online.
 - **43.2% mixed near-ties:** In 9,171 of 21,234 scored assessments, the #1 and #2 biased constitutions sat within ≤ 5 points of each other. The #1 dual pair by far was *Qi Deficiency + Qi Stagnation* (13.2% of near-ties), followed by *Qi Stagnation + Yin Deficiency* (8.7%) and *Qi Stagnation + Phlegm-Dampness* (8.3%).
 - **Age & climate shifts:** *Qiyu* peaked at 30–39 (36.7%); *Tanshi* peaked at 40–49 (14.6%); *Yinxu* more than doubled from 40–49 (4.0%) to 60+ (9.6%). Geographically, respondents in Taiwan and Singapore had *Phlegm-Dampness* #1, while Australia had *Tebing* #1.
 
 Curious if these proportions match what fellow practitioners are seeing in Western clinics lately — especially the overwhelming dominance of Liver Qi Stagnation + Spleen Qi Deficiency combinations.
 
-*(Full anonymized CSV tables and methodology note are open under CC BY 4.0 at https://www.identifytcm.com/constitution-statistics for anyone who wants to inspect the numbers.)*
+*(Full anonymized CSV tables and methodology note are open under CC BY 4.0 at https://www.identifytcm.com/constitution-statistics for anyone who wants to inspect the numbers. Educational scope only: TCM constitution self-assessments describe general wellness tendencies and never diagnose, treat, cure, or prevent any disease.)*

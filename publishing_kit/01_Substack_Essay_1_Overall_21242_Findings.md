@@ -30,9 +30,9 @@ Across all 21,242 completed assessments, **[Qi Stagnation](https://www.identifyt
 
 In classical TCM, Qi Stagnation reflects constrained Liver-channel flow from chronic mental load, screen-bound posture, and emotional tension — showing up as frequent sighing, rib-side or jaw tightness, pre-period tension, or waking between 1 AM and 3 AM. In our dataset, it peaks at **36.7%** in the `30–39` working-and-caregiving decade (`n = 2,084`), and still remains #1 even after age 60 (`23.0%`, `n = 9,584`).
 
-### 2. Why Only 6.2% Score "Balanced" Online (vs. 25%–32% in General Surveys)
+### 2. Why Only 6.2% Score "Balanced" Online (vs. 22%–35% in General Surveys)
 
-If you read large epidemiological papers conducted in Chinese community cohorts, the Balanced (*Pinghe*) constitution typically accounts for roughly a quarter to a third of the general population. Why is it only **6.2% (~1 in 16)** here — and just **2.4% to 3.1%** among adults under 40?
+If you read large epidemiological papers conducted in Chinese community cohorts, the Balanced (*Pinghe*) constitution typically accounts for 22%–35% of the general population (32.75% in Wang Qi & Zhu Yanbo's landmark 2009 national survey of 21,948 adults). Why is it only **6.2% (~1 in 16)** here — and just **2.4% to 3.1%** among adults under 40?
 
 Methodological honesty matters: an online wellness assessment is a **self-selected health-seeking sample**, not a random street census. People rarely take a three-minute body-type quiz when they sleep eight effortless hours and wake up full of energy; they take it when they are trying to make sense of afternoon crashes, cold feet, or restless nights. Among people actively looking for daily self-care answers, roughly 15 out of 16 already carry at least one clear constitutional tilt worth respecting.
 
