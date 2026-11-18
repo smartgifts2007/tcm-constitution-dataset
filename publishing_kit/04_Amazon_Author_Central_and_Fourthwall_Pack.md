@@ -1,12 +1,14 @@
 # Amazon Author Central & Fourthwall Cross-Entity Pack (E-E-A-T Loop)
 
-## A. Amazon Author Central (`https://author.amazon.com` — 2 Minutes)
-1. Sign in with your KDP Amazon account and claim **Volume 1 Paperback (`ASIN: B0HQJR9FRX` — *Your Face Is a Map of Your Organs*)** (and **Volume 2 Paperback, `ISBN: 9798140736750` — *Your Hands Are a Built-In First-Aid Kit*** once live).
-2. Paste this verified **English Author Biography**:
+## A. Amazon Author Central (`https://www.amazon.com/stores/Jimmy-Yu/author/B0GYVJ1VFJ` — LIVE & VERIFIED)
+1. Claimed **Volume 1 Paperback (`ASIN: B0HQJR9FRX` — *Your Face Is a Map of Your Organs*)** & **Volume 2 Paperback (`ASIN: B0HRDLZQ64` — *Your Hands Are a Built-In First-Aid Kit*)** strictly under author **`Jimmy Yu`**.
+2. Published **English Author Biography** *(Note: Amazon Author Bio Guidelines prohibit external `https://` URLs and `@` handle symbols; use clean entity names so Google Knowledge Graph reconciles via `Person.sameAs`)*:
 
-> **Jimmy Yu** is a Certified Acupuncturist, Traditional Chinese Medicine practitioner, and creator of **IdentifyTCM** (https://www.identifytcm.com). Across his English (@TCMWellnessChannel) and Chinese (@AcupuncturistJimmyOfficial) YouTube channels, he teaches practical meridian self-care, acupressure, and seasonal food therapy on camera to more than 155,000 subscribers worldwide. His illustrated *Jimmy's Wellness Notes* large-print atlas series translates classical TCM pattern recognition — grounded in the official Wang Qi / CACM nine-constitution framework and insights from over 21,242 online constitution assessments — into clear, everyday self-care habits. All works are strictly educational and designed to complement professional medical care.
+> **Jimmy Yu** is a Certified Acupuncturist, Traditional Chinese Medicine practitioner, and creator of the IdentifyTCM wellness platform. Across his English and Chinese YouTube channels (TCM Wellness Channel and Acupuncturist Jimmy Official), he teaches practical meridian self-care, acupressure, and seasonal food therapy on camera to more than 155,000 subscribers worldwide.
+>
+> His illustrated *Jimmy's Wellness Notes* large-print atlas series translates classical Chinese medicine pattern recognition — grounded in the official Wang Qi nine-constitution framework and insights from over 21,242 constitution assessments — into clear, everyday self-care habits. All works are strictly educational and designed to complement professional medical care.
 
-3. Once Amazon approves your public Author Page URL (`https://www.amazon.com/stores/author/...`), share that URL with me — I will add it directly into `Person.sameAs` in `identifytcm.com`'s root Schema.org JSON-LD to lock in Google's **Published Medical/Wellness Author** entity graph.
+3. `https://www.amazon.com/stores/Jimmy-Yu/author/B0GYVJ1VFJ` has been added to `Person.sameAs` in `identifytcm.com`'s root Schema.org JSON-LD (`app/layout.tsx`).
 
 ---
 
